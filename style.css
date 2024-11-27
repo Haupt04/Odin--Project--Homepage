@@ -175,3 +175,79 @@ section h1 {
     font-size: 34px;
     padding: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    /* Header Section */
+    #header {
+        flex-direction: column; 
+        text-align: center;
+        padding: 20px;
+    }
+
+    #header img {
+        width: 100%; 
+        max-width: 300px; 
+        margin-bottom: 20px;
+    }
+
+    .about-me {
+        width: 90%; 
+        max-width: 500px;
+        padding: 15px;
+        font-size: 14px; 
+        margin: 0 auto;
+    }
+
+    .icons {
+        justify-content: center; 
+        gap: 10px; 
+    }
+
+    /* My Work Section */
+    #work-projects {
+        flex-direction: column; 
+        gap: 20px; 
+
+    .work-container {
+        width: 100%; 
+        max-width: 400px; 
+        margin: 0 auto; 
+    }
+
+    .project-line h2 {
+        font-size: 18px; 
+    }
+
+    .project-line p {
+        font-size: 14px; 
+    }
+
+    .icon-line {
+        justify-content: space-between; 
+        flex-wrap: wrap; 
+    }
+
+    /* Contact Section */
+    .contact {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px; 
+        padding: 30px 20px;
+    }
+
+    #contact-info {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #phone, #email {
+        justify-content: center; 
+        gap: 10px;
+    }
+
+    #image-container img {
+        width: 100%; 
+        max-width: 250px; 
+        margin: 0 auto;
+    }
+}
