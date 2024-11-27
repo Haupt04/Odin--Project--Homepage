@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#header{
+    background: linear-gradient(-15deg, #007BFF 42%, red 45%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem; 
+    padding: 15px;
+}
+
+
+.about-me{
+    border: 2px solid black;
+    width: 90%;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 30px;
+    background-color: oldlace;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5s);
+    position: relative;
+}
+
+
+#header img{
+    width: 28%; /* Image adjusts to the container width */
+    height: auto; /* Maintains the aspect ratio */
+    max-width: 100%; /* Prevents image from exceeding its original size */
+    padding: 50px;
+    padding-right: 0;
+    
+   
+}
+
+.about-me h1{
+    padding: 10px;
+}
+
+.about-me p{
+    text-align:justify;
+} 
+
+.icons {
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end; /* Align icons to the left */
+    gap: 10px;
+
+}
+
+.icons i {
+    color: black;
+    padding-left: 10px;
+}
+
+
+/*  my work section */
+
+section h1 {
+    margin-left: 140px;
+    font-size: 36px;
+    border-bottom: 2px solid black;
+    width: 300px;
+}
+
+#work-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-container img{
+    max-width: 400px;
+    border: 2px solid black;
+    background-position: center
+    
+
+}
+
+#work {
+    background-color: #007BFF;
+}
+
+.work-container {
+    padding: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5s);
+    position: relative;
+}
+
+.project-line{
+    border: 2px solid black;
+    margin-top: -5px;
+    
+    max-width: 400px;
+
+}
+
+.icon-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.project-line p {
+    padding: 15px;
+    padding-top: 0;
+}
+
+.icon-line i {
+    margin-left: 15px; 
+    font-size: 26px;
+}
+
+.icon-line h2 {
+    margin-right: auto; /* Ensures the heading stays on the left */
+}
+
+
+/* Footer Section */
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #007BFF;
+    padding: 50px;
+    
+}
+
+#contact-info h1{
+    align-items: flex-start;
+}
+
+#contact-info p {
+    padding: 15px;
+}
+#phone img {
+    max-width: 35px;
+}
+
+#phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+#email img {
+    max-width: 35px;
+}
+
+#email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+#image-container img{
+    max-width: 400px;
+}
+
+#contact-info h2{
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+.icons{
+    justify-content: flex-start;
+    font-size: 34px;
+    padding: 10px;
+}
